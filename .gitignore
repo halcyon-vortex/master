@@ -1,5 +1,5 @@
 #ignores everything except top-level content (add any new top-level content with "!<filename>" below)
-*
-!.gitignore
-!docker-compose.yml
-!README.md
+#*
+#!.gitignore
+#!docker-compose.yml
+#!README.md
