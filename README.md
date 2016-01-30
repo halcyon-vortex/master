@@ -12,3 +12,33 @@
   - __Back-End Server__
   - __In-Memory Storage__
   - __Database__
+
+### Install Procedure
+
+From within the root directory:
+
+```sh
+Pull down all repos above
+```
+
+### Run outside of docker:
+
+From within the Back-End-Server directory:
+
+```sh
+npm install -g nodemon
+npm install
+npm start
+```
+
+### Run inside of docker:
+
+In Terminal from within root directory:
+  ```sh
+  docker-machine start <machine-name>
+  docker-machine env <machine-name>
+  docker pull ubuntu
+  docker pull node
+  docker pull redis
+  docker-compose up
+  ```
