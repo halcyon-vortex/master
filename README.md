@@ -16,9 +16,10 @@
 ### Install Procedure
 
 From within the root directory:
+  For each microservice
 
 ```sh
-Pull down all repos above
+git clone <microservice repo name>
 ```
 
 ### Run outside of docker:
@@ -34,11 +35,11 @@ npm start
 ### Run inside of docker:
 
 In Terminal from within root directory:
-  ```sh
-  docker-machine start <machine-name>
-  docker-machine env <machine-name>
-  docker pull ubuntu
-  docker pull node
-  docker pull redis
-  docker-compose up
-  ```
+```sh
+docker-machine start <machine-name>
+docker-machine env <machine-name>
+docker pull ubuntu
+docker pull node
+docker pull redis
+docker-compose up
+```
