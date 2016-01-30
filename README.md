@@ -2,9 +2,9 @@
 
 ## Team
 
-  - __Product Owner__: teamMember
-  - __Scrum Master__: teamMember
-  - __Development Team Members__: teamMember, teamMember
+  - __Product Owner__: Devin Pastoor
+  - __Scrum Master__: Ben Balaran
+  - __Developer__: Spencer Ochs
 
 ## Microservices
 
