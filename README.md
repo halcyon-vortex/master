@@ -22,16 +22,6 @@ From within the root directory:
 git clone <microservice repo name>
 ```
 
-### Run outside of docker:
-
-From within the Back-End-Server directory:
-
-```sh
-npm install -g nodemon
-npm install
-npm start
-```
-
 ### Run inside of docker:
 
 In Terminal from within root directory:
@@ -42,4 +32,19 @@ docker pull ubuntu
 docker pull node
 docker pull redis
 docker-compose up
+```
+
+### Run server outside of docker:
+
+In Terminal:
+```sh
+brew install redis
+redis-server
+```
+
+From within the Back-End-Server directory:
+
+```sh
+npm install
+npm start
 ```
