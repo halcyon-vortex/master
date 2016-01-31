@@ -27,7 +27,7 @@ git clone <microservice repo name>
 In Terminal from within root directory:
 ```sh
 docker-machine start <machine-name>
-docker-machine env <machine-name>
+eval "$(docker-machine env <machine-name>)"
 docker pull ubuntu
 docker pull node
 docker pull redis
