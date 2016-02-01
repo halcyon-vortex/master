@@ -17,7 +17,12 @@
 
 ```
 git clone --recursive https://github.com/halycon-vortex/master
-git submodule foreach git pull origin master
+```
+
+#### To set submodule branches to master
+
+```
+git submodule foreach git checkout master
 ```
 
 

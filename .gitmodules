@@ -1,16 +1,16 @@
 [submodule "in-memory-storage"]
 	path = in-memory-storage
 	url = https://github.com/halcyon-vortex/in-memory-storage.git
-  branch = heads/master
+  branch = master
 [submodule "back-end-server"]
 	path = back-end-server
 	url = https://github.com/halcyon-vortex/back-end-server.git
-  branch = heads/master
+  branch = master
 [submodule "front-end-server"]
 	path = front-end-server
 	url = https://github.com/halcyon-vortex/front-end-server.git
-  branch = heads/master
+  branch = master
 [submodule "database"]
 	path = database
 	url = https://github.com/halcyon-vortex/database
-  branch = heads/master
+  branch = master
