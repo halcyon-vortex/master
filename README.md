@@ -19,11 +19,6 @@
 git clone --recursive https://github.com/halycon-vortex/master
 ```
 
-#### To set submodule branches to master
-
-```
-git submodule foreach git checkout master
-```
 
 
 ### Run inside of docker:
@@ -51,4 +46,12 @@ From within the Back-End-Server directory:
 ```sh
 npm install
 npm start
+```
+
+
+If submodules cannot be found, check the submodule branches and ensure they are on heads/master:
+
+```
+git submodule status
+git submodule foreach git checkout master
 ```
