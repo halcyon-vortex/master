@@ -15,12 +15,11 @@
 
 ### Install Procedure
 
-From within the root directory:
-  For each microservice
-
-```sh
-git clone <microservice repo name>
 ```
+git clone --recursive https://github.com/halycon-vortex/master
+git submodule foreach git pull origin master
+```
+
 
 ### Run inside of docker:
 
