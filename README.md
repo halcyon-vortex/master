@@ -3,7 +3,7 @@
 ## Team
 
   - __Product Owner__: Devin Pastoor
-  - __Scrum Master__: Ben Balaran
+  - __Dev Ops / Scrum Master__: Ben Balaran
   - __Developer__: Spencer Ochs
 
 ## Microservices
@@ -55,3 +55,17 @@ If submodules cannot be found, check the submodule branches and ensure they are 
 git submodule status
 git submodule foreach git checkout master
 ```
+
+###Docker Image Build Requests
+
+Send post request in the following format:
+```
+curl -H "Content-Type: application/json" --data '{"build": true}' -X POST <auto-build-link>
+```
+Insert the following links to specify the build:
+
+> Front-end-server : https://registry.hub.docker.com/u/bbalaran/front-end-server/trigger/519d5267-d92b-4e65-96ad-3362fdac26f9/
+> Back-end-server : https://registry.hub.docker.com/u/bbalaran/back-end-server/trigger/a99ed444-d2a3-4b16-922a-d4ef98ae62bc/
+> In-Memory-Storage : https://registry.hub.docker.com/u/bbalaran/in-memory-storage/trigger/9a0dbbc4-9764-4861-9ab3-7c7964f91e23/
+> Database : https://registry.hub.docker.com/u/bbalaran/database/trigger/2fd3900f-d93e-48bd-89b9-30b39949d8af/
+
