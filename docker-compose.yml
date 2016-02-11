@@ -32,7 +32,7 @@ postgres:
     build: ./database
     ports:
         - "5432:5432"
-python-worker:
+pythonWorker:
     build: ./service-worker
     links:
         - postgres
