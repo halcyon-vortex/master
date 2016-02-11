@@ -14,3 +14,6 @@
 	path = database
 	url = https://github.com/halcyon-vortex/database.git
 	branch = master
+[submodule "service-worker"]
+	path = service-worker
+	url = https://github.com/halcyon-vortex/service-worker
