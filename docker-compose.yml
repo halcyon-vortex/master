@@ -10,21 +10,18 @@ node1:
     build: ./back-end-server
     links:
         - redis
-        - postgres
     ports:
         - "8080"
 node2:
     build: ./back-end-server
     links:
         - redis
-        - postgres
     ports:
         - "8080"
 node3:
     build: ./back-end-server
     links:
         - redis
-        - postgres
     ports:
         - "8080"
 redis:
@@ -32,7 +29,11 @@ redis:
     ports:
         - "6379"
 postgres:
-    image: postgres
+    build: ./database
     ports:
-        - "5432"
-
+        - "5432:5432"
+pythonWorker:
+    build: ./service-worker
+    links:
+        - postgres
+        - redis
