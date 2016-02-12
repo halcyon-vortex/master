@@ -1,4 +1,4 @@
-# Github Compass
+![Logo](assets/github-compass-banner.png "Github Compass")
 
 ## Overview
 Github Compass provides a platform for discovery of new and exciting open-source projects on Github. Github is a flourishing community with contributors innovating in countless languages and practices, and discovering new technologies and tools can be a daunting task.
