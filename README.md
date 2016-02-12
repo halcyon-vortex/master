@@ -1,3 +1,5 @@
+![System Architecture](/system-architecture.png "System Architecture")
+
 # Github Compass
 
 ## Overview
