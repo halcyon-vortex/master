@@ -1,5 +1,3 @@
-![System Architecture](/system-architecture.png "System Architecture")
-
 # Github Compass
 
 ## Overview
@@ -26,6 +24,12 @@ Each of the following is a separate repository, representing seperate services t
   - __In-Memory Storage:__ Redis cache
   - __Database:__ Postgres
   - __Service-worker:__ Python service worker to populate Redis from Postgres
+
+## System Architecture
+![System Architecture](/system-architecture.png "System Architecture")
+
+## Development Flow
+![Development Flow](/deployment-diagram.png "Development Flow")
 
 ### Install Procedure
 To initialize and update all submodules to the proper branch locally
@@ -82,3 +86,4 @@ If submodules cannot be found, check the submodule branches and ensure they are 
 git submodule status
 git submodule foreach git checkout master
 ```
+
