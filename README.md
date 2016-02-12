@@ -10,7 +10,7 @@ We achieved this by creating a snapshot of github from https://www.githubarchive
 ## Team
 
   - __Product Owner:__ Devin Pastoor
-  - __Dev Ops / Scrum Master:__ Ben Balaran
+  - __DevOps / Scrum Master:__ Ben Balaran
   - __Developer:__ Spencer Ochs
 
 ## Microservices
@@ -25,7 +25,9 @@ Each of the following is a separate repository, representing seperate services t
 
 ## Technology Stack
  - __Front End:__ React
- - __Front End:__ React
+ - __Back End:__ Node, Express, NGINX, Redis
+ - __Database:__ Postgres
+ - __Workers:__ Python, R
 
 
 ## System Architecture
