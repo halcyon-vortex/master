@@ -1,22 +1,20 @@
 ![Logo](assets/github-compass-banner.png "Github Compass")
 
 ## Overview
-Github Compass provides a platform for discovery of new and exciting open-source projects on Github. Github is a flourishing community with contributors innovating in countless languages and practices, and discovering new technologies and tools can be a daunting task.
+Github Compass provides a platform for discovery of new and exciting open-source projects on Github and in your localized network. Github is a flourishing community with contributors innovating in countless languages and practices, and discovering new technologies and tools can be a daunting task.
 
-Github Compass provides the solution with algorithms to show trending repositories that are both newer and well-established, across any and all programming languages.
+Github Compass provides the solution with algorithms to show trending repositories that are both newer and well-established, across any and all programming languages. In addition, the application provides personalized recommendations based on your interests.
 
 We achieved this by creating a snapshot of github from https://www.githubarchive.org/ log data. Our database is regularly updated with new logs, and uses a weighting algorithm to determine current trends in repositories.
 
-For more information on our system architecture and deployment flow, see the diagrams attached in this repository.
-
 ## Team
 
-  - __Product Owner__: Devin Pastoor
-  - __Dev Ops / Scrum Master__: Ben Balaran
-  - __Developer__: Spencer Ochs
+  - __Product Owner:__ Devin Pastoor
+  - __Dev Ops / Scrum Master:__ Ben Balaran
+  - __Developer:__ Spencer Ochs
 
 ## Microservices
-The application is built on a micro-service architecture leveraging docker. This allows all the separate services to reside in separate repositories.
+The application is built on a micro-service architecture leveraging docker. This allows all the separate services to reside in separate repositories, which parallel their implementation during deployment via docker containers.
 
 Each of the following is a separate repository, representing seperate services that reside in individual docker containers:
   - __Front-End Server:__ NGINX server and load balancer
@@ -24,6 +22,11 @@ Each of the following is a separate repository, representing seperate services t
   - __In-Memory Storage:__ Redis cache
   - __Database:__ Postgres
   - __Service-worker:__ Python service worker to populate Redis from Postgres
+
+## Technology Stack
+ - __Front End:__ React
+ - __Front End:__ React
+
 
 ## System Architecture
 ![System Architecture](assets/system-architecture.png "System Architecture")
