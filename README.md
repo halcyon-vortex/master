@@ -17,6 +17,8 @@ For more information on our system architecture and deployment flow, see the dia
 
 ## Microservices
 The application is built on a micro-service architecture leveraging docker. This allows all the separate services to reside in separate repositories.
+
+Each of the following is a separate repository, representing seperate services that reside in individual docker containers:
   - __Front-End Server:__ NGINX server and load balancer
   - __Back-End Server:__ Node cluser, server-side rendering and client directory
   - __In-Memory Storage:__ Redis cache
