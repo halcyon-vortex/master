@@ -26,10 +26,10 @@ Each of the following is a separate repository, representing seperate services t
   - __Service-worker:__ Python service worker to populate Redis from Postgres
 
 ## System Architecture
-![System Architecture](/system-architecture.png "System Architecture")
+![System Architecture](assets/system-architecture.png "System Architecture")
 
 ## Development Flow
-![Development Flow](/deployment-diagram.png "Development Flow")
+![Development Flow](assets/deployment-diagram.png "Development Flow")
 
 ### Install Procedure
 To initialize and update all submodules to the proper branch locally
