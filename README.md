@@ -23,7 +23,7 @@ Each of the following is a separate repository, representing seperate services t
   - __Database:__ Postgres
   - __Service-worker:__ Python service worker to populate Redis from Postgres
 
-## Technology Stack
+## Technologies
  - __Front End:__ React
  - __Back End:__ Node, Express, NGINX, Redis
  - __Database:__ Postgres
