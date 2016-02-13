@@ -62,7 +62,7 @@ docker-compose up
 Use the following commands to populate the database with the seed data
 ```sh
 docker exec -it master_postgres_1 bash
-psql -U postgres test-db < /tmp/psql_data/december_v3_2015_02_08
+psql -U postgres test-db < </tmp/seed-file>
 ```
 Use the following commands to activate python worker to load redis cache
 ```sh
