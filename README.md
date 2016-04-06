@@ -11,7 +11,7 @@ We achieved this by creating a snapshot of github from https://www.githubarchive
 
   - __Product Owner:__ Devin Pastoor
   - __DevOps | Scrum Master | Back-end Developer:__ Ben Balaran
-  - __Developer:__ Spencer Ochs
+  - __Developer | Database Designer | Data Scientist:__ Spencer Ochs
 
 ## Microservices
 The application is built on a micro-service architecture leveraging docker. This allows all the separate services to reside in separate repositories, which parallel their implementation during deployment via docker containers.
